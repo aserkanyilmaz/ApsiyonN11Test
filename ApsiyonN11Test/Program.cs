@@ -24,7 +24,7 @@ namespace ApsiyonN11Test
             driver.FindElement(By.Id("password")).SendKeys("apsiyontest3");
             System.Threading.Thread.Sleep(3000);
             driver.FindElement(By.Id("loginButton")).Click();
-            System.Threading.Thread.Sleep(3000);
+            System.Threading.Thread.Sleep(2000);
 
             driver.Navigate().GoToUrl("https://www.n11.com/");
 
